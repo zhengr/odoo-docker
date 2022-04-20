@@ -1,0 +1,124 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_subscription_taxcloud
+# 
+# Translators:
+# Martin Trigaux, 2020
+# JH CHOI <hwangtog@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~13.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:40+0000\n"
+"PO-Revision-Date: 2020-09-07 08:23+0000\n"
+"Last-Translator: JH CHOI <hwangtog@gmail.com>, 2020\n"
+"Language-Team: Korean (https://www.transifex.com/odoo/teams/41243/ko/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: sale_subscription_taxcloud
+#: model:ir.model.fields,field_description:sale_subscription_taxcloud.field_sale_subscription__display_name
+msgid "Display Name"
+msgstr "이름 표시"
+
+#. module: sale_subscription_taxcloud
+#: model_terms:ir.ui.view,arch_db:sale_subscription_taxcloud.sale_subscription_view_form
+msgid "Go to Settings."
+msgstr "설정으로 이동하기."
+
+#. module: sale_subscription_taxcloud
+#: model:ir.model.fields,field_description:sale_subscription_taxcloud.field_sale_subscription__id
+msgid "ID"
+msgstr "ID"
+
+#. module: sale_subscription_taxcloud
+#: model:ir.model.fields,field_description:sale_subscription_taxcloud.field_sale_subscription__is_taxcloud_configured
+msgid "Is Taxcloud Configured"
+msgstr "Taxcloud 구성 여부"
+
+#. module: sale_subscription_taxcloud
+#: model:ir.model.fields,field_description:sale_subscription_taxcloud.field_sale_subscription____last_update
+msgid "Last Modified on"
+msgstr "최근 수정"
+
+#. module: sale_subscription_taxcloud
+#: model_terms:ir.ui.view,arch_db:sale_subscription_taxcloud.sale_subscription_view_form
+msgid ""
+"Please enter your Taxcloud credentials to compute tax rates automatically."
+msgstr "세율을 자동으로 계산하려면 Taxcloud 자격 증명을 입력하십시오."
+
+#. module: sale_subscription_taxcloud
+#: model:ir.model,name:sale_subscription_taxcloud.model_sale_subscription
+msgid "Subscription"
+msgstr "구독"
+
+#. module: sale_subscription_taxcloud
+#: model_terms:ir.ui.view,arch_db:sale_subscription_taxcloud.sale_subscription_view_form
+msgid "Tax"
+msgstr "세금"
+
+#. module: sale_subscription_taxcloud
+#: model_terms:ir.ui.view,arch_db:sale_subscription_taxcloud.portal_subscription
+msgid "TaxCloud"
+msgstr "택스클라우드"
+
+#. module: sale_subscription_taxcloud
+#: model_terms:ir.ui.view,arch_db:sale_subscription_taxcloud.sale_subscription_view_form
+msgid "Taxes are automatically updated before each invoice."
+msgstr ""
+
+#. module: sale_subscription_taxcloud
+#: model_terms:ir.ui.view,arch_db:sale_subscription_taxcloud.portal_subscription
+msgid "Taxes are subject to change"
+msgstr ""
+
+#. module: sale_subscription_taxcloud
+#: model:ir.model.fields,help:sale_subscription_taxcloud.field_sale_subscription__is_taxcloud
+msgid "Technical field to determine whether to hide taxes in views or not."
+msgstr "화면에서 세금을 숨길 지 여부를 결정하는 기술 필드입니다."
+
+#. module: sale_subscription_taxcloud
+#: code:addons/sale_subscription_taxcloud/models/sale_subscription.py:0
+#, python-format
+msgid "The configuration of TaxCloud is in the Accounting app, Settings menu."
+msgstr "TaxCloud의 설정은 회계 앱의 설정 메뉴에 있습니다."
+
+#. module: sale_subscription_taxcloud
+#: code:addons/sale_subscription_taxcloud/models/sale_subscription.py:0
+#, python-format
+msgid "Unable to retrieve taxes from TaxCloud: "
+msgstr "TaxCloud에서 세금을 검색할 수 없습니다 :"
+
+#. module: sale_subscription_taxcloud
+#: model_terms:ir.ui.view,arch_db:sale_subscription_taxcloud.sale_subscription_view_form
+msgid "Update taxes"
+msgstr "세금 갱신"
+
+#. module: sale_subscription_taxcloud
+#: model:ir.model.fields,field_description:sale_subscription_taxcloud.field_sale_subscription__is_taxcloud
+msgid "Use TaxCloud API"
+msgstr "TaxCloud API 사용"
+
+#. module: sale_subscription_taxcloud
+#: model:ir.model.fields,help:sale_subscription_taxcloud.field_sale_subscription__is_taxcloud_configured
+msgid ""
+"Used to determine whether or not to warn the user to configure TaxCloud."
+msgstr "TaxCloud를 구성하도록 사용자에게 경고할지 여부를 판별하는 데 사용됩니다."
+
+#. module: sale_subscription_taxcloud
+#: model_terms:ir.ui.view,arch_db:sale_subscription_taxcloud.portal_subscription
+msgid "We use"
+msgstr ""
+
+#. module: sale_subscription_taxcloud
+#: model_terms:ir.ui.view,arch_db:sale_subscription_taxcloud.portal_subscription
+msgid ""
+"to\n"
+"                            automatically compute appropriate sales taxes upon payment depending on\n"
+"                            invoice date, address, etc. Taxes on your next invoice may be slightly\n"
+"                            different than the amount currently displayed."
+msgstr ""
