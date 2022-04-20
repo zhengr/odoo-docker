@@ -1,2 +1,0 @@
-class SocialValidationException(Exception):
-    pass
